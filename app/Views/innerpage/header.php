@@ -148,6 +148,11 @@
                 alt="<?=$websiteTitle?>">
             <div class="clearfix"></div>
         </a>
+<style>
+    #search{
+        display: none;
+    }
+</style>
         <div id="search">
             <div class="search-content">
                 <form action="/search" autocomplete="off">

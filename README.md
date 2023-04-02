@@ -2,5 +2,4 @@
 First Project!
 -----------------
 
-Live WebSite: https://wwww.anitium.net/
-Sheild Auth Login: https://www.anitium.net/login 
+I started learning new code. I don't have much experience. But I'm going to make a tracking site somehow. At least... it takes a long time to learn, but I believe I can come up with something.

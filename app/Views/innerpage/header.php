@@ -151,7 +151,7 @@
         <div id="search">
             <div class="search-content">
                 <form action="/search" autocomplete="off">
-                    <input type="text" class="form-control search-input" name="keyword" id="searching"
+                    <input type="text" class="form-control search-input" name="keyword" id="*searching*"
                         placeholder="Search anime..." required>
                     <button type="submit" class="search-icon"><i class="fas fa-search"></i></button>
                 </form>

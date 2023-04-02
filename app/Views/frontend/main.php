@@ -63,9 +63,8 @@
 <body data-page="page_home">
     <div id="sidebar_menu_bg"></div>
     <div id="wrapper" data-page="page_home">
-    <?php 
-echo view('innerpage/header.php');
-?>        <div class="clearfix"></div>
+    <?php echo view('innerpage/header.php');?>        
+    <div class="clearfix"></div>
         <div class="deslide-wrap">
             <div class="container" style="max-width:100%!important;width:100%!important;">
                 <div id="slider" class="swiper-container-initialized swiper-container-horizontal">

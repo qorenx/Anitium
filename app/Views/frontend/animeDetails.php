@@ -70,13 +70,7 @@ $episodelist = $getAnime['episode_id'];
 <body data-page="movie_info">
     <div id="sidebar_menu_bg"></div>
     <div id="wrapper" data-page="page_home">
-
-<?php 
-echo view('innerpage/header.php');
-?>
-
-
-
+<?php echo view('innerpage/header.php')?>
 
         <div class="clearfix"></div>
         <div id="main-wrapper" date-page="movie_info" data-id="<?=$url?>">
@@ -213,32 +207,17 @@ echo view('innerpage/header.php');
                             <div class="clearfix"></div>
                         </div>
                         <div class="tab-content">
-<?php 
-echo view('innerpage/disqus.php');
-?>
-
+                            <?php echo view('innerpage/disqus.php');?>
                         </div>
                     </section>
-
-
-<?php 
-echo view('innerpage/recent-releases.php');
-?>
-
-
+                    <?php echo view('innerpage/recent-releases.php');?>
                     <div class="clearfix"></div>
                 </div>
-
-                <?php 
-echo view('innerpage/sidenav.php');
-?>
+                <?php echo view('innerpage/sidenav.php');?>
                 <div class="clearfix"></div>
             </div>
         </div>
-
-        <?php 
-echo view('innerpage/footer.php');
-?>
+        <?php echo view('innerpage/footer.php');?>
         <div id="mask-overlay"></div>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         

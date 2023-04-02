@@ -44,11 +44,59 @@ service('auth')->routes($routes);
 /*
 * Anime Controller Routes
 * Frontend
-*
 */
 
-$routes->get('anime','Anitium::anime');
+$routes->get('anime','AnimeList::animelist');
 $routes->get('anime/(:any)', 'Anitium::anime/$1');
+
+
+/*
+* Anime Streaming Controller Routes
+* Frontend streaming controller
+*/
+
+$routes->get('watch','Streaming::watch');
+$routes->get('watch/(:any)', 'Streaming::watch/$1');
+
+
+/*
+* Anime genre Controller Routes
+* Frontend genre controller
+*/
+$routes->get('genre','Genre::genre');
+$routes->get('genre/(:any)', 'Genre::genre/$1');
+
+
+/*
+* Anime pop Controller Routes
+* Frontend pop controller
+*/
+$routes->get('popular','Popular::popular');
+$routes->get('popular/(:any)', 'Popular::popular/$1');
+
+/*
+* Anime type Controller Routes
+* Frontend type controller
+*/
+$routes->get('type/movies','Typemovie::typemovie');
+$routes->get('type/movies/(:any)', 'Typemovie::typemovie/$1');
+$routes->get('type/tv-series','Tvseries::Tvseries');
+$routes->get('type/tv-series/(:any)', 'Tvseries::Tvseries/$1');
+
+/*
+* Anime list and random Controller Routes
+* Frontend list and random controller
+*/
+$routes->get('az-list','Azlist::azlist');
+$routes->get('az-list/(:any)', 'Azlist::azlist/$1');
+$routes->get('random','Random::random');
+
+/*
+* Anime search Controller Routes
+* Frontend search controller
+*/
+$routes->get('search','Search::search');
+$routes->get('search/(:any)', 'Search::search/$1');
 
 
 /*

@@ -1,3 +1,4 @@
+@ -1,18 +1,5 @@
 */config/development
 */logs/log-*.php
 !*/logs/index.html
@@ -16,3 +17,7 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+sync.ffs_lock
+.env
+/writable/
+/Anit/

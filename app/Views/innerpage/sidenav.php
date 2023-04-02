@@ -1,4 +1,3 @@
-
 <div id="main-sidebar">
     <section class="block_area block_area_sidebar block_area-genres">
         <div class="block_area-header">
@@ -110,7 +109,3 @@
         </div>
     </section>
 </div>
-
-                <div class="clearfix"></div>
-            </div>
-        </div>

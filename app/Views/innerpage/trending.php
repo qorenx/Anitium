@@ -1,16 +1,3 @@
-
-                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
-                    <div class="swiper-navigation">
-                        <div class="swiper-button swiper-button-next" tabindex="0" role="button"
-                            aria-label="Next slide"><i class="fas fa-angle-right"></i></div>
-                        <div class="swiper-button swiper-button-prev" tabindex="0" role="button"
-                            aria-label="Previous slide"><i class="fas fa-angle-left"></i></div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                </div>
-            </div>
-        </div>
 <div id="anime-trending">
     <div class="container">
         <section class="block_area block_area_trending">

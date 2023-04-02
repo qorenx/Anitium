@@ -1,4 +1,4 @@
-                    <section class="block_area block_area_category">
+<section class="block_area block_area_category">
                         <div class="block_area-header">
                             <div class="float-left bah-heading mr-4">
                                 <h2 class="cat-heading">Recent Releases</h2>

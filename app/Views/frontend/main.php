@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
     <title><?=$websiteTitle?> - Official <?=$websiteTitle?> #1 Watch High Quality Anime Online Without Ads</title>
     
@@ -57,9 +60,50 @@
     </noscript>
 </head>
 
+<body data-page="page_home">
+    <div id="sidebar_menu_bg"></div>
+    <div id="wrapper" data-page="page_home">
+    <?php 
+echo view('innerpage/header.php');
+?>        <div class="clearfix"></div>
+        <div class="deslide-wrap">
+            <div class="container" style="max-width:100%!important;width:100%!important;">
+                <div id="slider" class="swiper-container-initialized swiper-container-horizontal">
+                <?php 
+echo view('innerpage/slidebar.php');
+?>                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
+                    <div class="swiper-navigation">
+                        <div class="swiper-button swiper-button-next" tabindex="0" role="button"
+                            aria-label="Next slide"><i class="fas fa-angle-right"></i></div>
+                        <div class="swiper-button swiper-button-prev" tabindex="0" role="button"
+                            aria-label="Previous slide"><i class="fas fa-angle-left"></i></div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+            </div>
+        </div>
 
+        <?php 
+echo view('innerpage/trending.php');
+?>
+        <div class="share-buttons share-buttons-home">
+            <div class="container">
+                <script type="text/javascript"
+                    src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63430163bc99824a"></script>
+                <div class="share-buttons-block">
+                    <div class="share-icon"></div>
+                    <div class="sbb-title">
+                        <span>Share <?=$websiteTitle?></span>
+                        <p class="mb-0">to your friends</p>
+                    </div>
+                    <div class="addthis_inline_share_toolbox"></div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
 
-<div id="anime-featured">
+        <div id="anime-featured">
 
         </div>
         <div id="main-wrapper">
@@ -187,3 +231,27 @@
                     </section>
                     <div class="clearfix"></div>
                 </div>
+                <?php 
+echo view('innerpage/sidenav.php');
+?>                <div class="clearfix"></div>
+            </div>
+        </div>
+        <?php 
+echo view('innerpage/footer.php');
+?>
+        <div id="mask-overlay"></div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js">
+        </script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/app.js"></script>
+        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/comman.js"></script>
+        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/movie.js"></script>
+        <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/function.js"></script>
+    </div>
+</body>
+
+</html>

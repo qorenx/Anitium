@@ -1,12 +1,4 @@
-
-<div class="clearfix"></div>
-        <div class="deslide-wrap">
-            <div class="container" style="max-width:100%!important;width:100%!important;">
-                <div id="slider" class="swiper-container-initialized swiper-container-horizontal">
 <div class="swiper-wrapper">
-
-
-
     <div class="swiper-slide">
         <div class="deslide-item">
             <div class="deslide-cover">
@@ -55,9 +47,4 @@
             <div class="clearfix"></div>
         </div>
     </div>
-
-
-
-
-
 </div>

@@ -1,9 +1,6 @@
 ---------
-+Cİ4 Sheild Auth
-+Server htaccess
-+SQL
-+development-debugbar
+First Project!
 -----------------
 
-Live WebSite: https://audiobook.anitium.net/
-Sheild Auth Login: https://audiobook.anitium.net/login 
+Live WebSite: https://wwww.anitium.net/
+Sheild Auth Login: https://www.anitium.net/login 

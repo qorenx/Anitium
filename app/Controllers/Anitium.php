@@ -2,10 +2,9 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
-{
-    public function index()
-    {
+class Anitium extends BaseController {
+    public function anime() {
+        
         $data['websiteTitle'] = 'Anitium';
         $data['websiteUrl'] = '';
         $data['websiteLogo'] = '/files/images/logo.png?v=2';
@@ -19,6 +18,6 @@ class Home extends BaseController
         $data['disqus'] = 'https://x.disqus.co';
         $data['api'] = 'http://anikatsu.shashanktiwar11.repl.co';
         $data['banner'] = '/files/images/banner.png';
-		echo view('home', $data);
+		echo view('frontend/animeDetails', $data);
     }
 }
